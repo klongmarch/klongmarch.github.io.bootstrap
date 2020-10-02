@@ -1,4 +1,5 @@
 .avatar {
+    max-width: 80px;
     border-radius: 50%; 
     float: left; 
     margin-right: 1em;
@@ -28,34 +29,6 @@ header .logo{
   font-weight: bold;
 }
 
-nav {
-  float: right;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav ul li{
-  display: inline;
-}
-
-nav ul li a,
-nav ul li a:link,
-nav ul li a:visited{
-  display: inline-block;
-  padding: 0 .5rem;
-  color: #fff;
-  line-height: 50px;
-  text-decoration: none;
-}
-
-nav ul li a:hover{
-  background: #444;
-}
-
 main {
   /* Use a margin to center the page */
   margin: 0 auto;
@@ -73,63 +46,6 @@ main {
   }
 }
 
-@media only screen and (max-width: 960px)  {
-  nav {
-      nav {
-          display:none;
-      }
-  }
-}
-
-#toggleMenu {
-  display: none;
-}
-
-@media only screen and (max-width: 960px)  {
-
-  #toggleMenu {
-    display: block;
-    float: right;
-    line-height: 50px;
-  }
-
-  nav {
-    display:none;
-  }
-}
-
-@media only screen and (max-width: 960px)  {
-
-  header {
-    position: relative;
-  }
-
-  #toggleMenu {
-    display: block;
-    float: right;
-    line-height: 50px;
-  }
-
-  header {
-    position: relative;
-  }
-
-  nav {
-    position: absolute;
-    display: none;
-    background: #000;
-    top: 50px;
-    left: 0;
-    right: 0;
-  }
-
-  nav ul li a,
-  nav ul li a:link,
-  nav ul li a:visited{
-    display: block;
-    border-bottom: 1px solid #777;
-  }
-}
 
 .center {
   text-align: center;
