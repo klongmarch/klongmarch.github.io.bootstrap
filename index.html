@@ -30,19 +30,62 @@
             </div>
           </nav>
 
-          <img src="steve.jpeg" class="avatar" alt="Steve Kang">
-          <h1>Hello, I am Steve Kang</h1>
-          <p>I am a software engineer that enjoys solving engineering problems.
-              In addition to that, I also enjoy outdoors and walking trails.
-          </p>
-
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Fluid jumbotron</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <!-- style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg); -->
+          <div class="jumbotron jumbotron-fluid"
+            style="background-image: url(DSC00803cropped.jpg);
+            background-color: black; background-size: cover; clear:left;height: 400px;">
+            <div class="container text-white">
+              <img src="steve.jpeg" class="avatar" alt="Steve Kang">
+              <div>
+              <h1 class="display-4" >Hello, I am Steve Kang</h1>
+              <p class="lead" style="width: 90%;">I am a software engineer who enjoys solving engineering problems.
+                In addition to that, I also enjoy outdoors.</p>
+              </div>
+              <div class="text-center">
+                <a class="text-info" href="resume.html" >Get to know more about me</a>
+              </div>
             </div>
           </div>
           
+          <h1 class="mb-4">Below are some of my projects:</h2>
+
+          <div class="card-deck">
+            <div class="card">
+              <a href="https://klongmarch.github.io/react-memory-game">
+                <img class="card-img-top" src="memoryGameScreenShot.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Memory Game</h5>
+                  <p class="card-text">Technology used: react</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="//www.toprockies.com">
+                <img class="card-img-top" src="employeeManagement.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Employee management with rest API</h5>
+                  <p class="card-text">Technology used: java spring boot, deployed on AWS RDS and BeanStalk</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-deck mt-3">
+            <div class="card">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Space Game</h5>
+                <p class="card-text">Technology used: HTML animation, Javascript</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Astronomical picture of the day</h5>
+                <p class="card-text">Technology used: HTML, Javascript</p>
+              </div>
+            </div>
+          </div>
         </div>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
